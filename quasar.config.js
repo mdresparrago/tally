@@ -40,11 +40,11 @@ export default defineConfig((ctx) => {
       // https://v2.quasar.dev/quasar-cli-vite/page-routing-with-vue-router#filename-based-routing
       // filenameBasedRouting: true,
 
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
+      // vueRouterMode: 'hash', // available values: 'hash', 'history'
       // vueRouterBase,
       // vueDevtools,
-
-      publicPath: '/invoice-generator/',
+      publicPath: '/',
+      vueRouterMode: 'history',
       // define: {},
       // defineEnv: {}
       // ignorePublicFolder: true,
